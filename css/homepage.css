@@ -4,3 +4,29 @@
   margin: 10px;
   max-width: 500px;
 }
+
+.boom-photo {
+  margin: 10px;
+  max-width: 500px;
+}
+
+.wrio {
+  margin: 10px;
+  max-width: 500px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
