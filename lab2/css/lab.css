@@ -12,9 +12,10 @@
 
 body {
   font-family: sans-serif;
-  background: #fdf6e3;
+  background: #b2df9f;
   color: #333;
   margin: 2rem;
+  border: 1px dotted #ccc;
 }
 
 h1 {
