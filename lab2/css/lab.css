@@ -4,6 +4,23 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #3e5e30;
-    background-color: #825786;
+    border: solid 1px #b2df9f;
+    background-color: #cfadd2;
   }
+
+  /* styles.css */
+
+body {
+  font-family: sans-serif;
+  background: #fdf6e3;
+  color: #333;
+  margin: 2rem;
+}
+
+h1 {
+  color: #268bd2;
+}
+
+p {
+  font-style: italic;
+}
