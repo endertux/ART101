@@ -10,20 +10,39 @@
 // Helwa's Simple Computer Game Pseudocode
 // Sticks (finger game)
 
-	// Title Screen
-						  //Accept user input to start
-						// Await user input for players (min: 2)
-						  //Accept user input (min players: 2)
-						// Game start
-						  // Accept player 1 move
-						  // Validate player 1 move
-						  // Evaluate possible moves from player 1
-						  // Accept player 2 move
-						  // Validate player 2 move
-						  // Evaluate possible moves from player 2
-						  // Test of win or draw condition
-							// if player hand reaches to count: 5
-							// then hand loses
+  // Title screen
+  // Accept user input to start game
+  //Await user input for players (players: 2)
+  //Accept user input (players: 2)
+  //Game start
+  //Players start with 2 hands, 1 finger each
+  //Accept player 1 move
+  //Validate player 1 move
+    //Tap 1 of the opponent’s hand to add 1 finger (point) to opponent’s hand
+      //If finger # is greater than 1
+        //Then add finger # amount to opponent’s hand
+    //If player has even total # fingers, player can tap hands together to move half # fingers to other hand
+      //Player input: If finger # is 3 on one hand (3 & 1)
+        //Then add additional finger to single finger hand (2 & 2)
+      //Player input: If finger # is 4 on one hand (4 & “dead” hand)
+        //Then split into 2 fingers on each hand (2 & 2)
+  //Evaluate possible moves from player 1
+  //Accept player 2 move
+  //Validate player 2 move
+    //Tap 1 of the opponent’s hand to add 1 finger (point) to opponent’s hand
+      //If finger # is greater than 1
+        //Then add finger # amount to opponent’s hand
+    //If player has even # fingers, player can tap hands together to move half # fingers to other hand
+      //Player input: If finger # is 3 on one hand (3 & 1)
+        //Then add additional finger to single finger hand (2 & 2)
+    //Player input: If finger # is 4 on one hand  (4 & “dead” hand)
+      //Then Split into 2 fingers on each hand (2 & 2)
+  //Evaluate possible moves from player 2
+  //Test of win condition
+    //If a player’s hand reaches 5 finger count
+      //Then a player loses a hand
+  //If a player reaches 0 hands
+  
 
 
 
