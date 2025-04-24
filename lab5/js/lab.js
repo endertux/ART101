@@ -27,11 +27,11 @@ function main() {
   
   
   //output
-  document.writeIn("Make: " + make + "<br>");
-  document.writeIn("Model: " + model + "<br>");
-  document.writeIn("Color: " + color + "<br>");
-  document.writeIn("Year: " + year + "<br>");
-  document.writeIn("Age: " + age + "<br>");
+  document.writeLn("Make: " + make + "<br>");
+  document.writeLn("Model: " + model + "<br>");
+  document.writeLn("Color: " + color + "<br>");
+  document.writeLn("Year: " + year + "<br>");
+  document.writeLn("Age: " + age + "<br>");
 }
 
 // let's get this party started
