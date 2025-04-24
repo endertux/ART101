@@ -6,6 +6,15 @@
 
 // Functions
 
+  // Define Variables
+  make = "Ford";
+  model = "Taurus";
+  color = "Rusty";
+  year = 1995;
+
+  // calculate
+  age = 2019 - year;
+
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
   // some code here
@@ -15,15 +24,6 @@ function myFunction(param1, param2) {
 function main() {
   console.log("Main function started.");
   // the code that makes everything happen
-
-  // Define Variables
-  make = "Ford";
-  model = "Taurus";
-  color = "Rusty";
-  year = 1995;
-
-  // calculate
-  age = 2019 - year;
   
   
   //output
