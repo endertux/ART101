@@ -3,15 +3,14 @@
 // Date: 4/24/25
 
 // Variables
-const make = "Honda";
-const model = "CRV";
-const color = "Silver";
-const year = 2014;
+make = "Ford";
+model = "Taurus";
+color = "Rusty";
+year = 1995;
 
-var currentYear = 2024;
 
 // Calculate
-var age = currentYear - year;
+age = 2019 - year;
 
 // Output
 document.writeln("Make: " + make + '<br>');
