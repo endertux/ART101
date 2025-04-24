@@ -3,14 +3,14 @@
 // Date: 4/24/25
 
 // Variables
-make = "Ford";
-model = "Taurus";
-color = "Rusty";
-year = 1995;
+make = "Jeep";
+model = "Safari";
+color = "Black";
+year = 2022;
 
 
 // Calculate
-age = 2019 - year;
+age = 2025 - year;
 
 // Output
 document.writeln("Make: " + make + '<br>');
