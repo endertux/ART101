@@ -2,38 +2,20 @@
 // Author: Helwa Halloum
 // Date: 4/24/25
 
-// Constants
+// Variables
+const make = "Honda";
+const model = "CRV";
+const color = "Silver";
+const year = 2014;
 
-// Functions
+var currentYear = 2024;
 
-  // Define Variables
-  make = "Ford";
-  model = "Taurus";
-  color = "Rusty";
-  year = 1995;
+// Calculate
+var age = currentYear - year;
 
-  // calculate
-  age = 2019 - year;
-
-  //output
-  document.writeLn("Make: " + make + "<br>");
-  document.writeLn("Model: " + model + "<br>");
-  document.writeLn("Color: " + color + "<br>");
-  document.writeLn("Year: " + year + "<br>");
-  document.writeLn("Age: " + age + "<br>");
-
-  
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-
-}
-
-// let's get this party started
-main();
+// Output
+document.writeln("Make: " + make + '<br>');
+document.writeln("Model: " + model + '<br>');
+document.writeln("Color: " + color + '<br>');
+document.writeln("Year: " + year + '<br>');
+document.writeln("Age: " + age + '<br>');
