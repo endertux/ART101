@@ -23,7 +23,7 @@ var myMainRide = {
 }
 
 //output
-document.writeln("Getting around " + myTransport + "<br>");
+document.writeln("Getting around: " + myTransport + "<br>");
 
 //print
 document.writeln("My Main Ride: <pre> ",
