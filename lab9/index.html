@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 9: Libraries & jQuery</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 9: Libraries & jQuery</h1>
+			<div class="minor-section" id="challenge">
+					<h2>Challenge</h2>
+					<p>Working with your partner, experiment with jQuery</p>
+					
+					<button id="button-challenge">Press Me</button>
+			</div>
+
+			<div class="minor-section" id="problems">
+					<h2>Problems</h2>
+					<p>Our problem was the button not working properly, as it was creating a new box inside the box insted of changing the box. 
+						This was fixed by moving the button in index.html and moving the div id within div class insted. </p>
+					
+					<button id="button-problems">Press Me</button>
+			</div>
+
+			<div class="minor-section" id="reflections">
+					<h2>Reflection</h2>
+					<p>Me and Daisy met up at RCC dining hall to work on this, then after my section we finished the lab at the RCC comp lab.
+						This lab was for sure one of the harder ones, as we kept running into a problem after another. In the end we were able to fix it together. </p>
+					
+					<button id="button-reflections">Press Me</button>
+			</div>
+
+			<div class="minor-section"  id="results">
+					<h2>Results</h2>
+					<div id="output"></div>
+					<p>Ooooo look how pretty I am.</p>
+
+					<button id="button-results">Press Me</button>
+			</div>
+		</section>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			<a href ="https://syllinxiloscient.github.io/art101/lab9/index.html">Daisy's Lab 9 Page</a>
+			<p></p>
+			<a href="../index.html">back to homepage</a>
+		</nav>
+	</main>
+</body>
+</html>
