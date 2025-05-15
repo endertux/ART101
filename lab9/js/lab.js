@@ -1,6 +1,6 @@
-// index.js - Lab 9: Libraries & jQuery
+// index.js - Lab 10: JavaScript for the Web
 // Author: Helwa Halloum
-// Date: 5/12/25
+// Date: 5/14/25
 
 // add button to challenge section of page
  //$("#challenge").append("<button id='button-challenge'>Make Special</button>");
