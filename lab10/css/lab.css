@@ -14,8 +14,35 @@
   margin: 3px;
   padding: 5px 10px;
   border-radius: 15px;
-  background-color: rgba(28, 57, 249, 0.752);
+  background-color:rgb(84, 166, 1);
   color: white;
   font-family: sans-serif;
   font-size: 0.8em;
 }
+
+/* from daisy: */
+.text:nth-child(odd)  {
+  text-align: left;
+}
+
+.text:nth-child(even)  {
+  text-align: right;
+}
+
+/* Convo Box */
+#convo {
+  background-color:ghostwhite;
+  margin: 15px auto;
+  padding: 0px;
+  border-radius: 15px;
+  border: solid 1px black;
+  max-width: 450px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#convo-tumb {
+  border-radius: 50%;
+  width: 50%;
+}
+

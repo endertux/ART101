@@ -8,7 +8,7 @@
 */
 
 function generateRandomText() {
-  const text = "Do you want to know something crazy??";
+  const text = document.getElementById('inputField').value;
   const min = 3;
   const max = 100;
   const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
