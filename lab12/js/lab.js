@@ -7,16 +7,17 @@ function sortingHat(str) {
   let mod = str.length % 4;
 
   if (mod ==0) {
-    return "Gryffindor"
+    return ["Gryffindor", " You're the main character."]
+
   }
   else if (mod ==1) {
-    return "Slytherin"
+    return ["Slytherin", " Your peers will hate you."]
   }
   else if (mod ==2) {
-    return "Hufflepuff"
+    return ["Hufflepuff", " I'm sorry."]
   }
   else if (mod ==3) {
-    return "Ravenclaw"
+    return ["Ravenclaw", " People sorted into here have brains."]
   }
 }
 
