@@ -1,4 +1,6 @@
 // index.js - Lab 8: Anon Functions and Callbacks
+  // debugged for lab 14 - 5/29/25
+
 // Author: Helwa Halloum
 // Date: 5/8/25
 
