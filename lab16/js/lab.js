@@ -11,22 +11,21 @@ $.ajax({
     // Store the object in a variable as requested
     var comicObj = comicObj;
 
-    // Create a container for the comic
+    // container for comic
     var comicContainer = $('<section>').addClass('comic-section');
 
-    // Add the title
+    // title
     var title = $('<h1>').text(comicObj.title);
     comicContainer.append(title);
 
-    // Create and add the image
+    // add timage
     var comicImg = $('<img>')
       .attr('src', comicObj.img)
       .attr('alt', comicObj.alt)
       .attr('title', comicObj.alt);
     comicContainer.append(comicImg);
 
-    // Add the container to the webpage (you might want to specify where)
-    $('body').append(comicContainer); // Or use another selector like $('#comics-container')
+    $('body').append(comicContainer);
   },
   error: function(xhr, status, error) {
     console.error('Error fetching comic:', error);
